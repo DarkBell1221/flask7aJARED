@@ -18,4 +18,4 @@ def alumnosGuardar():
 
     matricula    =request.form["txtMatriculaFA"]
     nombreapellido    =request.form["txtNombreApellidoFA"]
-    return f"Matricula: {matricula} Nombre y Apellido: {nombreapellido}"
+    return f"matricula: {matricula} Nombre y Apellido: {nombreapellido}"
